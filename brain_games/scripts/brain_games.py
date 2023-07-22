@@ -1,3 +1,4 @@
+#!/usr/bin/env pytnon3
 def main():
     print('Welcome to the Brain Games!')
 
