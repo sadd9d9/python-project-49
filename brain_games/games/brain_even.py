@@ -5,7 +5,7 @@ from brain_games.engine import play
 
 
 def main():
-    start = "Answer 'yes' if the number is even, otherwise answer 'no'."
+    start = 'Answer "yes" if the number is even, otherwise answer "no".'
     number_and_answer = []
     for _ in range(3):
         number = randint(1, 99)
