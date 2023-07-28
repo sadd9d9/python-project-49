@@ -12,7 +12,7 @@ def main():
         number1 = randint(1, 20)
         number2 = randint(1, 20)
         operation = randint(0, 2)
-        question = str(number1) + ' ' + operations[operation] + ' ' + str(number2)
+        question = f"{number1} {operations[operation]} {number2}"
         answer = str(eval(question))
         question_and_answer.append([question, answer])
     play(start, question_and_answer)
