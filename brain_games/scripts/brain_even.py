@@ -1,30 +1,20 @@
 #!/usr/bin/env python3
 
-import prompt, random
+from random import randint
+from brain_games.engine import play
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
-    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
-    k = 0
+    start = "Answer 'yes' if the number is even, otherwise answer 'no'."
+    number_and_answer = []
     for _ in range(3):
-        number = random.randint(1, 99)
-        print(f"Question: {number}")
-        answer = prompt.string("Your answer: ")
-        if answer == "no" and number % 2 != 0 or answer == "yes" and number % 2 == 0:
-            print("Correct!")
-            k += 1
+        number = randint(1, 99)
+        if number % 2 == 0:
+            answer = 'yes'
         else:
-            if number % 2 != 0:
-                print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'.")
-            elif number % 2 == 0:
-                print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'.")
-            print(f"Let's try again, {name}!")
-            break
-    if k == 3:
-        print(f"Congratulations, {name}!")
+            answer = 'no'
+        number_and_answer.append([number, answer])
+    play(start, number_and_answer)
 
 
 if __name__ == '__main__':
