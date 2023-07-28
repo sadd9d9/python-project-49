@@ -7,3 +7,5 @@
 [Play brain-calc](https://asciinema.org/a/zL7VSgOmOvCxfp2KKLUjJHYiR)
 
 [Play brain-gsd](https://asciinema.org/a/rIpW8vDC045lufzt9zPNgzI2L)
+
+[Play brain-progression](https://asciinema.org/a/5Jps92aWezwj8gJdD0hmlrHD5)
