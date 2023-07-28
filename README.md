@@ -9,3 +9,5 @@
 [Play brain-gsd](https://asciinema.org/a/rIpW8vDC045lufzt9zPNgzI2L)
 
 [Play brain-progression](https://asciinema.org/a/5Jps92aWezwj8gJdD0hmlrHD5)
+
+[Play brain-prime](https://asciinema.org/a/iiw6gKh8Netwa8AWahvy0PIeY)
