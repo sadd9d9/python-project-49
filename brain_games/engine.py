@@ -16,7 +16,7 @@ def play(start, question_and_answer):
             print("Correct!")
         else:
             print(f"'{answer}' is wrong answer ;(.", end='')
-            print(f"'Correct answer was '{correct_answer}'.")
+            print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 
